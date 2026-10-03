@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/themes.xml -->
 <resources>
+    <style name="Theme.HelloAndroidUI" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your app theme -->
+    </style>
 
-    <style name="Theme.HelloAndroidUI" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.SplashScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 </resources>
